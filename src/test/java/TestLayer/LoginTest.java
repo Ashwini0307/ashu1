@@ -1,5 +1,6 @@
 package TestLayer;
 
+import PageLayer.HomePage;
 import PageLayer.LoginPage;
 
 public class LoginTest extends LoginPage{
@@ -9,6 +10,9 @@ public class LoginTest extends LoginPage{
 		LoginPage log=new LoginPage();
 	     log.loginpage();
 		
+	     HomePage ho=new HomePage();
+	     ho.home();
+	     
 
 	}
 
