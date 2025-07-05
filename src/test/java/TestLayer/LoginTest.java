@@ -2,6 +2,7 @@ package TestLayer;
 
 import PageLayer.HomePage;
 import PageLayer.LoginPage;
+import PageLayer.logoutPage;
 
 public class LoginTest extends LoginPage{
 
@@ -12,6 +13,10 @@ public class LoginTest extends LoginPage{
 		
 	     HomePage ho=new HomePage();
 	     ho.home();
+	     
+	     logoutPage log1=new logoutPage();
+	     log1.logout();
+	     
 	     
 
 	}
